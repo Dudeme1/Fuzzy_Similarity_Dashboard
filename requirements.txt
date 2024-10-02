@@ -119,6 +119,7 @@ qstylizer @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/qstyli
 QtAwesome @ file:///C:/b/abs_e1w2vmh9q7/croot/qtawesome_1726169367822/work
 qtconsole @ file:///C:/b/abs_03f8rg9vl6/croot/qtconsole_1709231218069/work
 QtPy @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/qtpy_1701807198514/work
+RapidFuzz==3.10.0
 referencing @ file:///C:/Users/dev-admin/py312/referencing_1706802962559/work
 requests @ file:///C:/b/abs_9frifg92q2/croot/requests_1721410901096/work
 rich @ file:///C:/b/abs_21nw9z7xby/croot/rich_1720637504376/work
