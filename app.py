@@ -1,8 +1,19 @@
 import streamlit as st
 import rapidfuzz
 
+# Set the page configuration with a new title and favicon
+st.set_page_config(
+    page_title="Pio-Tech Fuzzy Similarity",  # Change to your desired name
+    page_icon="piotechlogo.ico",  # Change to your favicon path
+    layout="wide"  # You can set the layout as 'centered' or 'wide'
+)
+
+# Display the logo
+logo_path = "piotechlogo.png"  # Replace with your logo path
+st.image(logo_path, width=200)  # Adjust width as needed
+
 # Add company logo
-st.image("pio-tech logo.png", use_column_width=True)
+# st.image("pio-tech logo.png", use_column_width=True)
 
 # Add a title for the app with larger font size
 st.markdown("<h1 style='text-align: center; color: #2b6179;'>Fuzzy String Similarity Comparison</h1>", unsafe_allow_html=True)
